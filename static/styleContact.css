@@ -1,0 +1,52 @@
+h1{
+    color: white;
+    text-align: center;
+    margin: 12px;
+    font-size: 40px;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: center / cover no-repeat url("/static/image/bg4.jpg");
+}
+
+.myForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput {
+    width: 41%;
+    text-align: center;
+    padding: 7px;
+    font-size: 15px;
+    border: 2px soli grey;
+    border-radius: 12px;
+    margin: 11px 16px;
+    justify-content: center;
+    outline: none;
+}
+
+.btn{
+    padding: 10px 28px;
+    margin: 1px 13px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(219, 27, 187);
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: black;
+    outline: none;
+}

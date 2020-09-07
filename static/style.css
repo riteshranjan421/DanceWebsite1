@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* navigation bar -------------- */
+
+#navbar{
+    background-color: rgb(219, 54, 170);
+    padding: 18px 14px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#logo{
+    font-size: 23px;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -10px 30px;
+    margin-right: 70px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(2);
+}
+
+/* introduction-------------------------- */
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 600px;
+    background-color: aqua;
+}
+
+#introSection div.small{
+    font-size: 27px;
+    margin: 13px;
+}
+
+/* mission section--------------------------  */
+
+#missionSection{
+    height: 400px;
+    background: center / cover no-repeat url("/static/image/bg4.jpg");
+}
+
+#missionSection h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.card{
+    background-color: white;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 17px;
+    width: 25%;
+    margin: 30px 56px;
+    height: 233px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 183px;
+    padding: 8px 16px;
+    margin: 1px 1px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 0px;
+}
+.card-content p{
+    font-size: 17px;
+}
+/* sponsors section ---------------------- */
+
+
+#sponsorsSection{
+    height:400px;
+    background: center / cover no-repeat url("/static/image/bgbest.jpg");
+
+}
+
+#sponsorsSection h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 67px;
+}
+
+#sponsors{
+    height: 400px;
+    margin: auto;
+    align-items: center;
+}
+
+.spImage{
+    height: 58%;
+    margin: 0 20px;
+    padding: 12px 12px;
+}
+
+/* footer section ------------------- */
+#footer{
+    height: 96px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}

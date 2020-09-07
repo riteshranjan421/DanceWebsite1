@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+        div Welcome to Ritesh's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/image/mission1.png", alt="")
+                div.card-content
+                    p This is the best dance academy of india
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/image/mission2.png", alt="")
+                div.card-content
+                    p This is the best dance academy of india
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/image/mission3.png", alt="")
+                div.card-content
+                    p This is the best dance academy of india
+            
+
+    section#sponsorsSection
+        h2 Our sponsors
+        div#sponsors
+            img(src="/static/image/skype.webp", alt="sponsor image",class="spImage")
+            img(src="/static/image/microsoft.png", alt="sponsor image",class="spImage")
+            img(src="/static/image/hp.png", alt="sponsor image",class="spImage")
+            img(src="/static/image/apple2.webp", alt="sponsor image",class="spImage")
